@@ -1,0 +1,20 @@
+[package]
+name = "rs"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+ckbez = "0.202.0"
+ckb-hash = "0.202.0"
+ckb-mock-tx-types = "0.202.0"
+ckb-script = "0.202.0"
+ckb-types = "0.202.0"
+ckb-vm = "0.24"
+
+[patch.crates-io]
+ckb-chain-spec = { path = "/home/ubuntu/src/ckb/spec" }
+ckb-error = { path = "/home/ubuntu/src/ckb/error" }
+ckb-hash = { path = "/home/ubuntu/src/ckb/util/hash" }
+ckb-script = { path = "/home/ubuntu/src/ckb/script" }
+ckb-traits = { path = "/home/ubuntu/src/ckb/traits" }
+ckb-types = { path = "/home/ubuntu/src/ckb/util/types" }
